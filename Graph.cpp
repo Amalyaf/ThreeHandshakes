@@ -27,11 +27,6 @@ void Graph::addUser(std::string name)
 	UserCount++;
 }
 
-int Graph::getIndex(std::string name)
-{
-	return 0;
-}
-
 void Graph::addFriends(std::string UserName, std::string friendsName)
 {
 	int indexUser = -1;

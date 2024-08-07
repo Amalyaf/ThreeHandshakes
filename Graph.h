@@ -13,10 +13,9 @@ private:
 public:
 	Graph();
 	~Graph();
-	void addUser(std::string name);
-	int getIndex(std::string name);
-	void addFriends(std::string UserName, std::string friendsName);
-	void print();
-	void findMinDistancesFloyd();
-	bool edgeExists(int i, int j);
+	void addUser(std::string name); //добавление пользователей
+	void addFriends(std::string UserName, std::string friendsName); //добавление друзей
+	void print(); //вывод на экран
+	void findMinDistancesFloyd(); //алгоритм поиска минимального расстояния между вершинами
+	bool edgeExists(int i, int j); //проверка смежности вершин
 };
